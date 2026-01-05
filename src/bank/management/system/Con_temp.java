@@ -10,7 +10,7 @@ public class Con {
 
     public Con() {
         try {
-            this.connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bankSystem", "root", "majdkenza11*");
+            this.connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bankSystem", "root", "*****");
             this.statement = this.connection.createStatement();
         } catch (Exception e) {
             e.printStackTrace();
